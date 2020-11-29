@@ -1,4 +1,6 @@
 // main: style.less
+@import "colors&fonts";
+
 .header {
     max-width: 1440px;
 }
@@ -13,28 +15,38 @@
     margin: 24px 60px 0 43px;
 }
 
-.navigation_settings{
+.navigation_settings {
     display: flex;
     margin: 24px 60px 0 43px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.navigation_settings .nav_main>li>a {
+    text-decoration: none;
+    color: @color_black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+
+    &:hover {
+        color: @color_primary;
+
+    }
 }
 
 .nav_main {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
     padding: 0;
 }
 
 .nav_right {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     list-style: none;
     padding: 0;
 }
-
 
 
 .hover_model {
