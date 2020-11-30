@@ -9,6 +9,7 @@
   color: #000000;
   text-decoration: none;
   margin: 24px 60px 0 43px;
+  padding: 0;
 }
 .navigation_settings {
   display: flex;
@@ -23,9 +24,28 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
+  margin-right: 25px;
 }
 .navigation_settings .nav_main > li > a:hover {
   color: #E51937;
+  border-bottom: 2px solid #E51937;
+  padding-bottom: 6px;
+  transition: 0.3s;
+}
+.navigation_settings .nav_right > li > a {
+  text-decoration: none;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  margin-right: 25px;
+}
+.navigation_settings .nav_right > li > a:hover {
+  color: #E51937;
+  border-bottom: 2px solid #E51937;
+  padding-bottom: 6px;
+  transition: 0.3s;
 }
 .nav_main {
   display: flex;
@@ -37,8 +57,32 @@
   list-style: none;
   padding: 0;
 }
-.hover_model {
-  border: 1px solid #E51937;
+.tesla_logo {
+  background-image: url(../img/teslalogo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 600px;
+  margin-bottom: 24px;
+}
+.tesla {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 110px;
+  color: #000000;
+  text-align: center;
+}
+.tesla_welcome {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  text-align: center;
+  margin-top: -70px;
 }
 @font-face {
   font-family: 'Montserrat';
@@ -62,6 +106,7 @@
   src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
 }
 body {
+  width: 1440px;
   margin: 0 auto;
   padding: 0;
   font-family: Montserrat;

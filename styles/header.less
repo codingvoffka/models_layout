@@ -13,6 +13,7 @@
     color: @color_black;
     text-decoration: none;
     margin: 24px 60px 0 43px;
+    padding: 0;
 }
 
 .navigation_settings {
@@ -29,10 +30,30 @@
     font-weight: 600;
     font-size: 15px;
     line-height: 18px;
+    margin-right: 25px;
 
     &:hover {
         color: @color_primary;
+        border-bottom: 2px solid @color_primary;
+        padding-bottom: 6px;
+        transition: 0.3s;
+    }
+}
 
+.navigation_settings .nav_right>li>a {
+    text-decoration: none;
+    color: @color_black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 25px;
+
+    &:hover {
+        color: @color_primary;
+        border-bottom: 2px solid @color_primary;
+        padding-bottom: 6px;
+        transition: 0.3s;
     }
 }
 
@@ -48,7 +69,33 @@
     padding: 0;
 }
 
-
-.hover_model {
-    border: 1px solid @color_primary;
+.tesla_logo {
+    background-image: url(../img/teslalogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1440px;
+    height: 600px;
+    margin-bottom: 24px;
 }
+
+.tesla {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 110px;
+    color: @color_black;
+    text-align: center;
+}
+
+.tesla_welcome {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: @color_black;
+    text-align: center;
+    margin-top: -70px;
+}
+
