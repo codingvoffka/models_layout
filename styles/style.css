@@ -123,6 +123,7 @@
   text-transform: uppercase;
   color: #000000;
   text-align: center;
+  cursor: pointer;
 }
 .tesla_button_block {
   color: #E51937;
@@ -143,6 +144,17 @@
   display: flex;
   margin: 0;
   margin-right: -50%;
+  color: #E51937;
+  text-decoration: none;
+  cursor: pointer;
+}
+.tesla_vector {
+  display: flex;
+  justify-content: center;
+  margin-top: 37px;
+}
+.tesla_car {
+  margin-bottom: 37px;
 }
 @font-face {
   font-family: 'Montserrat';
@@ -164,6 +176,11 @@
   font-weight: 700;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
+}
+.main_right_section {
+  width: 440px;
+  height: 900px;
+  background-color: #E51937;
 }
 body {
   width: 1440px;
