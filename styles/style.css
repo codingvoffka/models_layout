@@ -177,10 +177,34 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE7g4.ttf) format('truetype');
 }
+.main_section {
+  margin-top: 30px;
+  display: flex;
+}
+.main_left_section {
+  margin-right: 488px;
+  padding-right: 400px;
+  position: relative;
+}
+.tesla_cabin {
+  margin: 0 -145px;
+}
+.left_section_title {
+  position: absolute;
+  top: -4%;
+  left: 107px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 85px;
+  color: #E51937;
+}
 .main_right_section {
   width: 440px;
   height: 900px;
   background-color: #E51937;
+  display: flex-end;
+  padding-left: 500px;
 }
 body {
   width: 1440px;
